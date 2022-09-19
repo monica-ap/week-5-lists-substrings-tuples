@@ -28,16 +28,19 @@ print(my_list)
 my_list.insert(3,"bobba bobba")
 print(my_list)
 
-
-
+my_list2 = ["julie", "terrance", "jugga", "star trek"]
+#join my_list and my_list2 in a new variable
+#called my_list3 and print it out
+my_list3= my_list.extend(my_list2)
+print(my_list3)
 # Add the element "motorcycle" to the following list of means of transportation:
 
-# transportation_means = ["plane", "car", "ship", "bicycle"]
-# transportation_means.append("motorcycle")
+transportation_means = ["plane", "car", "ship", "bicycle"]
+transportation_means.append("motorcycle")
 # #append adds an element to the end
-# print(transportation_means)
+print(transportation_means)
 # transportation_means.remove("car")
-# print(transportation_means)
+print(transportation_means)
 # newTrans = transportation_means.pop()
 # #pop removes the last element
 # print("my new trans is " +newTrans)
@@ -50,23 +53,27 @@ luckyNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]
 friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
 # instructions:
 ######join both lists together in a new list
-
+join= luckyNumbers+friends
+print(join)
 ###### print the new list out
 # print(newList2)
 # print out the first item in the list
-
+print(join[0])
 ###### remove the last item of the new list
-
+join.pop()
+print(join)
 ###### print the new list out without the last item
 
 ###### add three more items to the end of the list
-
+join.append("Jason, Scarlett, Georgie")
+print(join)
 ###### print the last item in the new list
 
 ###### sort the list
 
 ###### find a way to insert a new item at the 3rd position of the list
-
+join.insert(3,"cool")
+print(join)
 ###### print the new list out
 
 ##### reverse the list
